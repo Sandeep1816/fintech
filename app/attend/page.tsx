@@ -55,7 +55,7 @@ export default function AttendPage() {
               </motion.h2>
 
               <p className="text-lg text-gray-700 leading-relaxed text-center mb-8">
-                The Africa FinTech Fest & Awards offers you the opportunity to network with the most prominent leaders
+                The Global FinTech Fest & Awards offers you the opportunity to network with the most prominent leaders
                 and innovators in the industry.
               </p>
 
@@ -253,7 +253,7 @@ export default function AttendPage() {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 1 }}
                 >
-                  Forge Meaningful Connections at Africa FinTech Fest & Awards
+                  Forge Meaningful Connections at Global FinTech Fest & Awards
                 </motion.h3>
 
                 <motion.p
@@ -281,7 +281,7 @@ export default function AttendPage() {
                         <div>
                           <p className="font-medium">Connect with Industry Pioneers</p>
                           <p className="text-sm text-gray-600">
-                            Meet Top Fintech Leaders: The Africa FinTech Fest & Awards gathers 250+ attendees, including
+                            Meet Top Fintech Leaders: The Global FinTech Fest & Awards gathers 250+ attendees, including
                             C-suite executives and tech innovators.
                           </p>
                         </div>

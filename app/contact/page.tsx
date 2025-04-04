@@ -4,7 +4,7 @@ import type React from "react"
 
 import { motion } from "framer-motion"
 import { Card, CardContent } from "@/components/ui/card"
-import { Mail, Phone, MapPin, Clock, MessageSquare, Calendar, Users, Sparkles, Loader2 } from "lucide-react"
+import { Mail,  MapPin, Clock, MessageSquare, Calendar, Users, Sparkles, Loader2 } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { useState, type FormEvent } from "react"
@@ -180,19 +180,19 @@ export default function ContactPage() {
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
-        <motion.div variants={container} initial="hidden" animate="show" className="max-w-5xl mx-auto">
+        <motion.div variants={container} initial="hidden" animate="show" className="max-w-5xl mx-auto ">
           <motion.div variants={item} className="text-center mb-12">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
               Get in <span className="text-black">Touch</span>
             </h1>
             <div className="w-20 h-1 bg-black mx-auto mb-6"></div>
             <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-              Have questions about Africa Fintech Fest & Awards? Our team is here to help you.
+              Have questions about Global Fintech Fest & Awards? Our team is here to help you.
             </p>
           </motion.div>
 
           {/* Contact cards */}
-          <motion.div variants={item} className="grid md:grid-cols-3 gap-6 mb-16">
+          <motion.div variants={item} className="grid md:grid-cols-3 gap-6 mb-16 ml-50">
             <Card className="bg-white backdrop-blur-md border-gray-200 overflow-hidden relative hover:shadow-lg shadow-sm transition-all duration-300">
               <div className="absolute inset-0 bg-gradient-to-br from-gray-50 to-white rounded-lg"></div>
               <CardContent className="p-6 text-center relative">
@@ -202,14 +202,14 @@ export default function ContactPage() {
                 <h3 className="text-xl font-semibold mb-2 text-black">Email Us</h3>
                 <p className="text-gray-700 mb-4">Our team will respond within 24 hours</p>
                 <a
-                  href="mailto:info@africafintechfest.com"
+                  href="mailto:info@Globalfintechfest.com"
                   className="text-gray-700 hover:text-black hover:underline font-medium transition-colors"
                 >
-                  info@africafintechfest.com
+                  proptechsales@maxpo.ae
                 </a>
               </CardContent>
             </Card>
-
+{/* 
             <Card className="bg-white backdrop-blur-md border-gray-200 overflow-hidden relative hover:shadow-lg shadow-sm transition-all duration-300">
               <div className="absolute inset-0 bg-gradient-to-br from-gray-50 to-white rounded-lg"></div>
               <CardContent className="p-6 text-center relative">
@@ -225,7 +225,7 @@ export default function ContactPage() {
                   +27 12 345 6789
                 </a>
               </CardContent>
-            </Card>
+            </Card> */}
 
             <Card className="bg-white backdrop-blur-md border-gray-200 overflow-hidden relative hover:shadow-lg shadow-sm transition-all duration-300">
               <div className="absolute inset-0 bg-gradient-to-br from-gray-50 to-white rounded-lg"></div>
@@ -234,7 +234,7 @@ export default function ContactPage() {
                   <MapPin className="h-6 w-6 text-black" />
                 </div>
                 <h3 className="text-xl font-semibold mb-2 text-black">Event Location</h3>
-                <p className="text-gray-700 mb-4">Johannesburg, South Africa</p>
+                <p className="text-gray-700 mb-4">Johannesburg, South Global</p>
                 <p className="text-sm text-gray-600">Venue details to be announced</p>
               </CardContent>
             </Card>
@@ -430,9 +430,9 @@ export default function ContactPage() {
                     <div>
                       <h3 className="font-medium text-black">Event Dates</h3>
                       <p className="text-sm text-gray-700">
-                        10 – 11 July 2025
+                        20 - 21 August 2025
                         <br />
-                        Johannesburg, South Africa
+                        Johannesburg, South Global
                       </p>
                     </div>
                   </div>
@@ -449,10 +449,10 @@ export default function ContactPage() {
                         For press and media inquiries, please contact:
                         <br />
                         <a
-                          href="mailto:media@africafintechfest.com"
+                          href="mailto:media@Globalfintechfest.com"
                           className="text-gray-700 hover:text-black hover:underline transition-colors"
                         >
-                          media@africafintechfest.com
+                          media@Globalfintechfest.com
                         </a>
                       </p>
                     </div>
@@ -470,10 +470,10 @@ export default function ContactPage() {
                         For sponsorship opportunities, please contact:
                         <br />
                         <a
-                          href="mailto:sponsors@africafintechfest.com"
+                          href="mailto:sponsors@Globalfintechfest.com"
                           className="text-gray-700 hover:text-black hover:underline transition-colors"
                         >
-                          sponsors@africafintechfest.com
+                          sponsors@Globalfintechfest.com
                         </a>
                       </p>
                     </div>
@@ -582,7 +582,7 @@ export default function ContactPage() {
                 <CardContent className="p-6">
                   <h3 className="text-lg font-semibold mb-2 text-black">When and where is the event?</h3>
                   <p className="text-gray-700">
-                    Africa Fintech Fest & Awards will take place on July 10-11, 2025, in Johannesburg, South Africa. The
+                    Global Fintech Fest & Awards will take place on July 10-11, 2025, in Johannesburg, South Global. The
                     exact venue will be announced closer to the event date.
                   </p>
                 </CardContent>
@@ -602,7 +602,7 @@ export default function ContactPage() {
                   <h3 className="text-lg font-semibold mb-2 text-black">How can I become a sponsor?</h3>
                   <p className="text-gray-700">
                     Please visit our Become a Sponsor page to view our sponsorship packages and submit an application,
-                    or contact us directly at sponsors@africafintechfest.com.
+                    or contact us directly at sponsors@Globalfintechfest.com.
                   </p>
                 </CardContent>
               </Card>

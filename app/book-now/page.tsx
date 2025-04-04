@@ -268,7 +268,7 @@ export default function BookNowPage() {
                     </div>
                     <h3 className="text-2xl font-bold mb-4 text-black">Registration Successful!</h3>
                     <p className="text-gray-700 mb-6 max-w-md mx-auto">
-                      Thank you for registering for the Africa Fintech Fest & Awards! We&apos;ve sent a confirmation email with all the details you&apos;ll need.
+                      Thank you for registering for the Global Fintech Fest & Awards! We&apos;ve sent a confirmation email with all the details you&apos;ll need.
                     </p>
                     <div className="text-sm text-gray-500">
                       This message will disappear in a few seconds...
@@ -517,7 +517,7 @@ export default function BookNowPage() {
                 <div>
                   <h3 className="text-xl font-semibold mb-4 text-black">Get in Touch</h3>
                   <p className="text-gray-700 mb-6">
-                    Have questions about the Africa FinTech Fest & Awards? Our team is here to help. Reach out to us
+                    Have questions about the Global FinTech Fest & Awards? Our team is here to help. Reach out to us
                     using the contact form or the information provided.
                   </p>
 
@@ -531,10 +531,10 @@ export default function BookNowPage() {
                       <div>
                         <p className="font-medium text-black">Email Us</p>
                         <a
-                          href="mailto:info@africafintechfest.com"
+                          href="mailto:info@Globalfintechfest.com"
                           className="text-sm text-gray-700 hover:text-black transition-colors"
                         >
-                          info@africafintechfest.com
+                          info@Globalfintechfest.com
                         </a>
                       </div>
                     </div>
@@ -557,7 +557,7 @@ export default function BookNowPage() {
                   <div className="bg-gray-50 backdrop-blur-md p-6 rounded-lg border border-gray-200 shadow-sm">
                     <h4 className="font-medium mb-2 text-black">Event Location</h4>
                     <p className="text-sm text-gray-700">
-                      Johannesburg, South Africa
+                      Johannesburg, South Global
                       <br />
                       Venue details to be announced
                     </p>
