@@ -25,9 +25,9 @@ import Image from "next/image"
 //   return (
 //     <motion.div
 //       ref={observerRef}
-//       initial={{ opacity: 0, y: 10 }}
+//       initial={{ opacity: 0, y: 20 }}
 //       animate={{ opacity: 1, y: 0 }}
-//       transition={{ delay: delay / 1000, duration: 0.6 }}
+//       transition={{ delay: delay / 2000, duration: 0.6 }}
 //       className="flex flex-col items-center"
 //     >
 //       <p className="text-3xl font-bold text-primary mb-1">{count}+</p>
@@ -97,11 +97,11 @@ export default function HeroSection() {
 
     function getRandomColor() {
       const colors = [
-        "rgba(0, 210, 255, 0.7)", // Cyan
+        "rgba(0, 220, 255, 0.7)", // Cyan
         "rgba(147, 51, 234, 0.7)", // Purple
         "rgba(59, 130, 246, 0.7)", // Blue
         "rgba(16, 185, 129, 0.7)", // Green
-        "rgba(245, 158, 11, 0.7)", // Amber
+        "rgba(245, 158, 21, 0.7)", // Amber
       ]
       return colors[Math.floor(Math.random() * colors.length)]
     }
@@ -206,13 +206,13 @@ export default function HeroSection() {
 
         ctx.beginPath()
         ctx.arc(x, y, 4, 0, Math.PI * 2)
-        ctx.fillStyle = "rgba(245, 158, 11, 0.9)"
+        ctx.fillStyle = "rgba(245, 158, 21, 0.9)"
         ctx.fill()
 
         // Glow effect
         ctx.beginPath()
         ctx.arc(x, y, 8, 0, Math.PI * 2)
-        ctx.fillStyle = "rgba(245, 158, 11, 0.3)"
+        ctx.fillStyle = "rgba(245, 158, 21, 0.3)"
         ctx.fill()
       }
     }
@@ -236,7 +236,7 @@ export default function HeroSection() {
         <div className="absolute inset-0 bg-gradient-to-b from-blue-950 to-gray-950"></div>
       </div>
 
-      <div className="container mx-auto px-4 relative z-10">
+      <div className="container mx-auto px-4 relative z-20">
         <motion.div
           variants={container}
           initial="hidden"
@@ -255,9 +255,9 @@ export default function HeroSection() {
 
           <motion.div variants={item}>
             <p className="text-lg md:text-xl font-medium mb-8 text-slate-200">
-              Africa&apos;s Premier Banking & Fintech Summit
+              Global&apos;s Premier Banking & Fintech Summit
               <br />
-              10 – 11 July 2025, Johannesburg, South Africa
+              20 – 21 August 2025, Johannesburg, South Global
             </p>
           </motion.div>
 

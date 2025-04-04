@@ -624,7 +624,7 @@ export default function BecomeSponsorPage() {
                     </div>
                     <h3 className="text-2xl font-bold mb-4 text-black">Application Submitted!</h3>
                     <p className="text-gray-700 mb-6">
-                      Thank you for your interest in sponsoring the Africa Fintech Fest & Awards! Our team will review your application and contact you shortly to discuss the next steps.
+                      Thank you for your interest in sponsoring the Global Fintech Fest & Awards! Our team will review your application and contact you shortly to discuss the next steps.
                     </p>
                     <div className="text-sm text-gray-500">
                       This message will disappear in a few seconds...

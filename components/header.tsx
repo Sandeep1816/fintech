@@ -12,6 +12,7 @@ const navItems = [
   { name: "Home", path: "/" },
   { name: "About", path: "/about" },
   { name: "Attend", path: "/attend" },
+  { name: "Agenda", path: "/agenda" },
   { name: "Sponsor", path: "/sponsor" },
   { name: "Statup Nexus", path: "/startup" },
   { name: "Fintech Pioneer Awards", path: "/fintech" },

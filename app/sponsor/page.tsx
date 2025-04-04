@@ -38,7 +38,7 @@ export default function SponsorPage() {
           <motion.div variants={item} className="bg-gray-100 p-8 md:p-12 rounded-xl mb-16 border border-gray-300">
             <div className="text-center max-w-2xl mx-auto">
               <h2 className="text-2xl md:text-3xl font-bold mb-6">
-                Showcase Your Brand at Africa&apos;s Premier Fintech Event
+                Showcase Your Brand at Global&apos;s Premier Fintech Event
               </h2>
               <p className="text-lg text-gray-600 mb-8">
                 Connect with industry leaders, showcase your solutions, and position your brand at the forefront of
@@ -91,7 +91,7 @@ export default function SponsorPage() {
             <TabsContent value="why-sponsor" className="space-y-6">
               <h2 className="text-2xl font-bold text-black">Why Sponsor</h2>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Sponsoring the Africa FinTech Fest & Awards offers a prime opportunity to enhance brand visibility,
+                Sponsoring the Global FinTech Fest & Awards offers a prime opportunity to enhance brand visibility,
                 attract high-quality leads, and engage with top decision-makers in the banking and fintech sector.
               </p>
 
@@ -261,7 +261,7 @@ export default function SponsorPage() {
                   diverse, multi-channel formats that foster engagement, generate leads, and boost brand visibility.
                 </p>
                 <p className="text-gray-600 mb-8">
-                  The Africa Fintech Fest team is dedicated to collaborating with you at every stage, crafting tailored,
+                  The Global Fintech Fest team is dedicated to collaborating with you at every stage, crafting tailored,
                   high-impact marketing solutions that keep your prospects engaged long after the event.
                 </p>
 
@@ -294,7 +294,7 @@ export default function SponsorPage() {
               <div className="bg-gray-100 p-8 rounded-lg text-center border border-gray-300">
                 <h3 className="text-xl font-semibold mb-6 text-black">Sponsors To Be Announced</h3>
                 <p className="text-gray-600 mb-8">
-                  Our sponsor lineup for Africa FinTech Fest & Awards 2025 will be announced soon. Check back later for
+                  Our sponsor lineup for Global FinTech Fest & Awards 2025 will be announced soon. Check back later for
                   updates or contact us to learn about sponsorship opportunities.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -326,7 +326,7 @@ export default function SponsorPage() {
                   Let&apos;s Connect on Sponsorship Opportunities
                 </h3>
                 <p className="text-center text-gray-600 mb-8">
-                  Discover how we can maximize your impact at Africa FinTech Fest & Awards. Our team is here to help you
+                  Discover how we can maximize your impact at Global FinTech Fest & Awards. Our team is here to help you
                   make the most of your participation. Be part of shaping the future of banking and fintech—reach out
                   today!
                 </p>

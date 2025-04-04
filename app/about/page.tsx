@@ -73,8 +73,8 @@ export default function AboutPage() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6 }}
               >
-                Africa FinTech Fest & Awards SA 2025 sets the agenda for the future of banking and Fintech in South
-                Africa. The Africa FinTech Fest & Awards 2025 is poised to be a landmark event, bringing together
+                Global FinTech Fest & Awards SA 2025 sets the agenda for the future of banking and Fintech in South
+                Global. The Global FinTech Fest & Awards 2025 is poised to be a landmark event, bringing together
                 industry leaders, innovators, and policymakers to shape the future of banking and fintech. As the
                 financial technology landscape continues to evolve at a rapid pace, the summit will focus on key trends,
                 challenges, and opportunities that will define the next era of fintech.
@@ -346,8 +346,8 @@ export default function AboutPage() {
                 >
                   <h3 className="text-2xl font-semibold mb-3 text-black">Elite Executive Arena</h3>
                   <p className="text-gray-600">
-                    Africa FinTech Fest & Awards connects you with visionary leaders, featuring C-suite speakers from
-                    leading banks, insurance companies, and top fintech firms across South Africa.
+                    Global FinTech Fest & Awards connects you with visionary leaders, featuring C-suite speakers from
+                    leading banks, insurance companies, and top fintech firms across South Global.
                   </p>
                 </motion.div>
 
@@ -374,7 +374,7 @@ export default function AboutPage() {
                 >
                   <h3 className="text-2xl font-semibold mb-3 text-black">Dynamic Leadership Conversations</h3>
                   <p className="text-gray-600">
-                    Africa FinTech Fest & Awards fuels the discussions that shape the future of the commercial world. Engage in one-on-one meetings, 
+                    Global FinTech Fest & Awards fuels the discussions that shape the future of the commercial world. Engage in one-on-one meetings, 
                     interactive discussions, focused roundtables, and structured networking opportunities with an audience where 75% hold C-Level, 
                     Director, VP, or Head positions within the Banking and Fintech sector.
                   </p>
@@ -414,7 +414,7 @@ export default function AboutPage() {
                 transition={{ duration: 0.6 }}
               >
                 Our advisory board members will be announced soon. Stay tuned for updates on the industry leaders who
-                will be guiding the direction of the Africa FinTech Fest & Awards 2025.
+                will be guiding the direction of the Global FinTech Fest & Awards 2025.
               </motion.p>
 
               {/* <div className="flex justify-center mt-8">
@@ -452,7 +452,7 @@ export default function AboutPage() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
             >
-              The Africa FinTech Fest & Awards 2025 will underscore the importance of collaboration, innovation, and
+              The Global FinTech Fest & Awards 2025 will underscore the importance of collaboration, innovation, and
               inclusivity in shaping the future of banking and payments. As the industry continues to break new ground,
               the summit will serve as a platform for stakeholders to align on a shared vision for a more connected,
               secure, and sustainable financial ecosystem.

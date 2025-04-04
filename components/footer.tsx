@@ -7,11 +7,11 @@ export default function Footer() {
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">Africa Fintech Fest</h3>
+            <h3 className="text-xl font-bold mb-4">Global Fintech Fest</h3>
             <p className="text-primary-foreground/80 mb-4">
-              Africa&apos;s Premier Banking & Fintech Summit
+              Global&apos;s Premier Banking & Fintech Summit
               <br />
-              10 – 11 July 2025, Johannesburg, South Africa
+              20 – 21 August 2025, Johannesburg, South Global
             </p>
             <div className="flex space-x-4">
               <Link
@@ -121,17 +121,17 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-bold mb-4">Contact Us</h3>
             <address className="not-italic text-primary-foreground/80">
-              <p>Johannesburg, South Africa</p>
+              <p>Johannesburg, South Global</p>
               <p className="mt-2">
-                <a href="mailto:info@africafintechfest.com" className="hover:text-primary-foreground transition-colors">
-                  info@africafintechfest.com
+                <a href="mailto:info@Globalfintechfest.com" className="hover:text-primary-foreground transition-colors">
+                proptechsales@maxpo.ae
                 </a>
               </p>
-              <p className="mt-1">
+              {/* <p className="mt-1">
                 <a href="tel:+27123456789" className="hover:text-primary-foreground transition-colors">
                   +27 12 345 6789
                 </a>
-              </p>
+              </p> */}
             </address>
           </div>
         </div>

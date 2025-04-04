@@ -51,18 +51,18 @@ const handleSubmit = async (e: React.FormEvent) => {
     setFormData({ name: "", email: "" });
     setShowForm(false); // Hide form and show thank-you message
 
-    // Reset form after 10 seconds
+    // Reset form after 20 seconds
     setTimeout(() => {
       setShowForm(true);
       setMessage("");
-    }, 10000);
+    }, 20000);
   } else {
     setMessage(data.error || "Something went wrong. Please try again.");
   }
 };
 
   return (
-    <div className="py-16 bg-white mt-10">
+    <div className="py-16 bg-white mt-20">
       <div className="container mx-auto px-4">
         <motion.div 
           variants={container} 
@@ -82,14 +82,14 @@ const handleSubmit = async (e: React.FormEvent) => {
               Startup <span className="text-gray-600">Nexus</span>
             </h2>
             <p className="text-gray-700 text-lg mb-6">
-              Africa FinTech Fest & Awards 2025
+              Global FinTech Fest & Awards 2025
               <br />
-              10 – 11 July 2025 | Johannesburg, South Africa
+              20 – 21 July 2025 | Johannesburg, South Global
             </p>
 
             {/* Form Card */}
             <motion.div 
-              className="mt-8 bg-gray-100 p-8 rounded-lg shadow-lg max-w-lg mx-auto"
+              className="mt-8 bg-gray-200 p-8 rounded-lg shadow-lg max-w-lg mx-auto"
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5 }}
@@ -155,7 +155,7 @@ const handleSubmit = async (e: React.FormEvent) => {
                 opportunities, or strategic partnerships, this is the place to make it happen.
               </p>
 
-              <div className="bg-gray-100 p-6 rounded-lg mt-8">
+              <div className="bg-gray-200 p-6 rounded-lg mt-8">
                 <h3 className="text-xl font-semibold mb-4 text-black">WHO YOU&apos;LL CONNECT WITH</h3>
                 <p className="text-gray-700 mb-4">
                   Meet venture capitalists, corporate investors, accelerators, banking partnership leaders, startup
@@ -178,7 +178,7 @@ const handleSubmit = async (e: React.FormEvent) => {
                       href="/complementary-pass" 
                       variant="outline" 
                       size="sm"
-                      className="border-black text-black hover:bg-gray-100"
+                      className="border-black text-black hover:bg-gray-200"
                     >
                       Apply For Your Complementary Pass
                     </ButtonLink> */}

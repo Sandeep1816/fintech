@@ -12,7 +12,7 @@ import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Card, CardContent } from "@/components/ui/card"
-import { CheckCircle, Sparkles, Users, Mic } from "lucide-react"
+import { CheckCircle, Sparkles, Users, Speech } from "lucide-react"
 
 const formSchema = z.object({
   name: z.string().min(2, { message: "Name is required" }),
@@ -145,7 +145,7 @@ export default function SpeakersPage() {
               }`}
               onClick={() => setActiveTab("apply")}
             >
-              <Mic className="w-4 h-4" />
+              <Speech className="w-4 h-4" />
               Apply to Speak
             </button>
           </motion.div>
@@ -164,7 +164,7 @@ export default function SpeakersPage() {
                 className="p-8 mb-8 bg-gray-100 backdrop-blur-md rounded-lg shadow-xl border border-gray-300 hover:shadow-cyan-500/10 transition-all duration-500"
                 whileHover={{ scale: 1.02 }}
               >
-                <div className="relative mx-auto mb-6 w-32 h-32">
+                {/* <div className="relative mx-auto mb-6 w-32 h-32">
                   <div className="absolute inset-0 rounded-full bg-gradient-to-r from-cyan-400 to-purple-500 animate-pulse"></div>
                   <Image
                     src="/placeholder.svg?height=120&width=120"
@@ -173,7 +173,7 @@ export default function SpeakersPage() {
                     height={120}
                     className="relative mx-auto rounded-full border-4 border-blue-800 p-1"
                   />
-                </div>
+                </div> */}
                 <h3 className="mb-4 text-2xl font-semibold text-gray-800">Speakers To Be Announced</h3>
                 <p className="mb-6 text-gray-700">
                   We&apos;re in the process of confirming our lineup of industry-leading speakers for the Global Fintech
@@ -188,7 +188,7 @@ export default function SpeakersPage() {
                   onClick={() => setActiveTab("apply")}
                   className="bg-gradient-to-r from-gray-800 to-black hover:from-gray-700 hover:to-black text-white border-none shadow-lg shadow-gray-400/20 hover:shadow-gray-400/40 transition-all duration-300"
                 >
-                  <Mic className="w-4 h-4 mr-2" />
+                  <Speech className="w-4 h-4 mr-2" />
                   Apply to Speak
                 </Button>
               </motion.div>
