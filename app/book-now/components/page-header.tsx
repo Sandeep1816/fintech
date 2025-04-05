@@ -3,6 +3,7 @@
 import { motion } from "framer-motion"
 
 interface PageHeaderProps {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   variants: any
 }
 

@@ -5,6 +5,7 @@ import { Mail, Phone } from "lucide-react"
 import { ContactForm } from "./contact-form"
 
 interface ContactTabProps {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   item: any
 }
 
