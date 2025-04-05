@@ -82,7 +82,7 @@ const handleSubmit = async (e: React.FormEvent) => {
               Startup <span className="text-gray-600">Nexus</span>
             </h2>
             <p className="text-gray-700 text-lg mb-6">
-              Global FinTech Fest & Awards 2025
+              Global FinTech Summit & Awards 2025
               <br />
               20 – 21 July 2025 | Johannesburg, South Global
             </p>
