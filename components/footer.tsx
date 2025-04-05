@@ -11,7 +11,7 @@ export default function Footer() {
             <p className="text-primary-foreground/80 mb-4">
               Global&apos;s Premier Banking & Fintech Summit
               <br />
-              20 – 21 August 2025, Johannesburg, South Global
+              20 – 21 August 2025, Johannesburg, South Africa
             </p>
             <div className="flex space-x-4">
               <Link
@@ -121,7 +121,7 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-bold mb-4">Contact Us</h3>
             <address className="not-italic text-primary-foreground/80">
-              <p>Johannesburg, South Global</p>
+              <p>Johannesburg, South Africa</p>
               <p className="mt-2">
                 <a href="mailto:info@Globalfintechfest.com" className="hover:text-primary-foreground transition-colors">
                 proptechsales@maxpo.ae

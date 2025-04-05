@@ -88,10 +88,10 @@ export default function ContactPage() {
       // Show thank you message
       setShowThankYou(true)
 
-      // Set timer to hide thank you message after 10 seconds
+      // Set timer to hide thank you message after 20 seconds
       setTimeout(() => {
         setShowThankYou(false)
-      }, 10000)
+      }, 20000)
 
       toast(
        "Message sent successfully!.We'll get back to you as soon as possible"
@@ -123,15 +123,15 @@ export default function ContactPage() {
   return (
     <div className="min-h-screen bg-white text-black pt-24 pb-16">
       {/* Animated background elements */}
-      <div className="fixed inset-0 -z-10 overflow-hidden">
+      <div className="fixed inset-0 -z-20 overflow-hidden">
         <div className="absolute inset-0 bg-white"></div>
 
         {/* Animated gradient orbs */}
         <motion.div
           className="absolute top-0 right-0 w-[800px] h-[800px] bg-black/5 rounded-full blur-3xl"
           animate={{
-            x: [100, 150, 100],
-            y: [-100, -50, -100],
+            x: [200, 150, 200],
+            y: [-200, -50, -200],
             scale: [1, 1.1, 1],
           }}
           transition={{
@@ -171,7 +171,7 @@ export default function ContactPage() {
 
         {/* Dot pattern overlay */}
         <div
-          className="absolute inset-0 opacity-10"
+          className="absolute inset-0 opacity-20"
           style={{
             backgroundImage: "radial-gradient(circle, rgba(0, 0, 0, 0.15) 1px, transparent 1px)",
             backgroundSize: "30px 30px",
@@ -179,7 +179,7 @@ export default function ContactPage() {
         ></div>
       </div>
 
-      <div className="container mx-auto px-4 relative z-10">
+      <div className="container mx-auto px-4 relative z-20">
         <motion.div variants={container} initial="hidden" animate="show" className="max-w-5xl mx-auto ">
           <motion.div variants={item} className="text-center mb-12">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
@@ -187,7 +187,7 @@ export default function ContactPage() {
             </h1>
             <div className="w-20 h-1 bg-black mx-auto mb-6"></div>
             <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-              Have questions about Global Fintech Fest & Awards? Our team is here to help you.
+              Have questions about Global Fintech Summit & Awards? Our team is here to help you.
             </p>
           </motion.div>
 
@@ -196,13 +196,13 @@ export default function ContactPage() {
             <Card className="bg-white backdrop-blur-md border-gray-200 overflow-hidden relative hover:shadow-lg shadow-sm transition-all duration-300">
               <div className="absolute inset-0 bg-gradient-to-br from-gray-50 to-white rounded-lg"></div>
               <CardContent className="p-6 text-center relative">
-                <div className="w-12 h-12 bg-black/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="w-12 h-12 bg-black/20 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Mail className="h-6 w-6 text-black" />
                 </div>
                 <h3 className="text-xl font-semibold mb-2 text-black">Email Us</h3>
                 <p className="text-gray-700 mb-4">Our team will respond within 24 hours</p>
                 <a
-                  href="mailto:info@Globalfintechfest.com"
+                  href="mailto:info@GlobalfintechSummit.com"
                   className="text-gray-700 hover:text-black hover:underline font-medium transition-colors"
                 >
                   proptechsales@maxpo.ae
@@ -213,7 +213,7 @@ export default function ContactPage() {
             <Card className="bg-white backdrop-blur-md border-gray-200 overflow-hidden relative hover:shadow-lg shadow-sm transition-all duration-300">
               <div className="absolute inset-0 bg-gradient-to-br from-gray-50 to-white rounded-lg"></div>
               <CardContent className="p-6 text-center relative">
-                <div className="w-12 h-12 bg-black/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="w-12 h-12 bg-black/20 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Phone className="h-6 w-6 text-black" />
                 </div>
                 <h3 className="text-xl font-semibold mb-2 text-black">Call Us</h3>
@@ -230,11 +230,11 @@ export default function ContactPage() {
             <Card className="bg-white backdrop-blur-md border-gray-200 overflow-hidden relative hover:shadow-lg shadow-sm transition-all duration-300">
               <div className="absolute inset-0 bg-gradient-to-br from-gray-50 to-white rounded-lg"></div>
               <CardContent className="p-6 text-center relative">
-                <div className="w-12 h-12 bg-black/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="w-12 h-12 bg-black/20 rounded-full flex items-center justify-center mx-auto mb-4">
                   <MapPin className="h-6 w-6 text-black" />
                 </div>
                 <h3 className="text-xl font-semibold mb-2 text-black">Event Location</h3>
-                <p className="text-gray-700 mb-4">Johannesburg, South Global</p>
+                <p className="text-gray-700 mb-4">Johannesburg, South Africa</p>
                 <p className="text-sm text-gray-600">Venue details to be announced</p>
               </CardContent>
             </Card>
@@ -260,7 +260,7 @@ export default function ContactPage() {
                       animate={{ opacity: 1, y: 0 }}
                       className="text-center py-8"
                     >
-                      <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                      <div className="w-16 h-16 bg-green-200 rounded-full flex items-center justify-center mx-auto mb-6">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           className="h-8 w-8 text-green-600"
@@ -407,7 +407,7 @@ export default function ContactPage() {
                 <div className="space-y-4">
                   <div className="flex items-start">
                     <div className="mr-4 mt-1">
-                      <div className="w-10 h-10 bg-black/10 rounded-full flex items-center justify-center">
+                      <div className="w-20 h-20 bg-black/20 rounded-full flex items-center justify-center">
                         <Clock className="h-5 w-5 text-black" />
                       </div>
                     </div>
@@ -423,7 +423,7 @@ export default function ContactPage() {
 
                   <div className="flex items-start">
                     <div className="mr-4 mt-1">
-                      <div className="w-10 h-10 bg-black/10 rounded-full flex items-center justify-center">
+                      <div className="w-20 h-20 bg-black/20 rounded-full flex items-center justify-center">
                         <Calendar className="h-5 w-5 text-black" />
                       </div>
                     </div>
@@ -432,14 +432,14 @@ export default function ContactPage() {
                       <p className="text-sm text-gray-700">
                         20 - 21 August 2025
                         <br />
-                        Johannesburg, South Global
+                        Johannesburg, South Africa
                       </p>
                     </div>
                   </div>
 
                   <div className="flex items-start">
                     <div className="mr-4 mt-1">
-                      <div className="w-10 h-10 bg-black/10 rounded-full flex items-center justify-center">
+                      <div className="w-20 h-20 bg-black/20 rounded-full flex items-center justify-center">
                         <MessageSquare className="h-5 w-5 text-black" />
                       </div>
                     </div>
@@ -449,10 +449,10 @@ export default function ContactPage() {
                         For press and media inquiries, please contact:
                         <br />
                         <a
-                          href="mailto:media@Globalfintechfest.com"
+                          href="mailto:media@GlobalfintechSummit.com"
                           className="text-gray-700 hover:text-black hover:underline transition-colors"
                         >
-                          media@Globalfintechfest.com
+                          media@GlobalfintechSummit.com
                         </a>
                       </p>
                     </div>
@@ -460,7 +460,7 @@ export default function ContactPage() {
 
                   <div className="flex items-start">
                     <div className="mr-4 mt-1">
-                      <div className="w-10 h-10 bg-black/10 rounded-full flex items-center justify-center">
+                      <div className="w-20 h-20 bg-black/20 rounded-full flex items-center justify-center">
                         <Users className="h-5 w-5 text-black" />
                       </div>
                     </div>
@@ -470,10 +470,10 @@ export default function ContactPage() {
                         For sponsorship opportunities, please contact:
                         <br />
                         <a
-                          href="mailto:sponsors@Globalfintechfest.com"
+                          href="mailto:sponsors@GlobalfintechSummit.com"
                           className="text-gray-700 hover:text-black hover:underline transition-colors"
                         >
-                          sponsors@Globalfintechfest.com
+                          sponsors@GlobalfintechSummit.com
                         </a>
                       </p>
                     </div>
@@ -485,7 +485,7 @@ export default function ContactPage() {
                   <div className="flex space-x-4">
                     <a
                       href="https://twitter.com"
-                      className="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center hover:bg-gray-300 transition-colors"
+                      className="w-20 h-20 bg-gray-200 rounded-full flex items-center justify-center hover:bg-gray-300 transition-colors"
                       aria-label="Twitter"
                     >
                       <svg
@@ -500,12 +500,12 @@ export default function ContactPage() {
                         strokeLinejoin="round"
                         className="text-black"
                       >
-                        <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path>
+                        <path d="M22 4s-.7 2.1-2 3.4c1.6 20-9.4 17.3-18 21.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path>
                       </svg>
                     </a>
                     <a
                       href="https://linkedin.com"
-                      className="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center hover:bg-gray-300 transition-colors"
+                      className="w-20 h-20 bg-gray-200 rounded-full flex items-center justify-center hover:bg-gray-300 transition-colors"
                       aria-label="LinkedIn"
                     >
                       <svg
@@ -527,7 +527,7 @@ export default function ContactPage() {
                     </a>
                     <a
                       href="https://facebook.com"
-                      className="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center hover:bg-gray-300 transition-colors"
+                      className="w-20 h-20 bg-gray-200 rounded-full flex items-center justify-center hover:bg-gray-300 transition-colors"
                       aria-label="Facebook"
                     >
                       <svg
@@ -547,7 +547,7 @@ export default function ContactPage() {
                     </a>
                     <a
                       href="https://instagram.com"
-                      className="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center hover:bg-gray-300 transition-colors"
+                      className="w-20 h-20 bg-gray-200 rounded-full flex items-center justify-center hover:bg-gray-300 transition-colors"
                       aria-label="Instagram"
                     >
                       <svg
@@ -563,7 +563,7 @@ export default function ContactPage() {
                         className="text-black"
                       >
                         <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                        <path d="M16 21.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 21.37z"></path>
                         <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
                       </svg>
                     </a>
@@ -582,7 +582,7 @@ export default function ContactPage() {
                 <CardContent className="p-6">
                   <h3 className="text-lg font-semibold mb-2 text-black">When and where is the event?</h3>
                   <p className="text-gray-700">
-                    Global Fintech Fest & Awards will take place on July 10-11, 2025, in Johannesburg, South Global. The
+                    Global Fintech Summit & Awards will take place on August 20-21, 2025, in Johannesburg, South Africa. The
                     exact venue will be announced closer to the event date.
                   </p>
                 </CardContent>
@@ -602,7 +602,7 @@ export default function ContactPage() {
                   <h3 className="text-lg font-semibold mb-2 text-black">How can I become a sponsor?</h3>
                   <p className="text-gray-700">
                     Please visit our Become a Sponsor page to view our sponsorship packages and submit an application,
-                    or contact us directly at sponsors@Globalfintechfest.com.
+                    or contact us directly at sponsors@GlobalfintechSummit.com.
                   </p>
                 </CardContent>
               </Card>
@@ -622,7 +622,7 @@ export default function ContactPage() {
               <Button
                 asChild
                 variant="outline"
-                className="border-black/50 text-black hover:bg-black/10 hover:border-black transition-all duration-300"
+                className="border-black/50 text-black hover:bg-black/20 hover:border-black transition-all duration-300"
               >
                 <Link href="/faq">View All FAQs</Link>
               </Button>

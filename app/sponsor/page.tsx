@@ -91,7 +91,7 @@ export default function SponsorPage() {
             <TabsContent value="why-sponsor" className="space-y-6">
               <h2 className="text-2xl font-bold text-black">Why Sponsor</h2>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Sponsoring the Global FinTech Fest & Awards offers a prime opportunity to enhance brand visibility,
+                Sponsoring the Global FinTech Awards offers a prime opportunity to enhance brand visibility,
                 attract high-quality leads, and engage with top decision-makers in the banking and fintech sector.
               </p>
 
@@ -178,7 +178,6 @@ export default function SponsorPage() {
                       <li>• Pitch stages</li>
                       <li>• Panel discussions</li>
                       <li>• Case studies</li>
-                      <li>• Workshops</li>
                       <li>• Interactive exhibitions</li>
                       <li>• Networking opportunities</li>
                     </ul>
@@ -273,9 +272,7 @@ export default function SponsorPage() {
                   </p>
                   <div className="flex items-center">
                     <div className="mr-4">
-                      <div className="w-12 h-12 bg-black rounded-full flex items-center justify-center">
-                        <Mail className="h-6 w-6 text-black" />
-                      </div>
+                      <Mail className="h-6 w-6 text-white" />
                     </div>
                     <div>
                       <p className="font-medium">Tarannum S</p>
@@ -421,9 +418,7 @@ export default function SponsorPage() {
                   </p>
                   <div className="flex items-center justify-center">
                     <div className="mr-4">
-                      <div className="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center">
-                        <Mail className="h-5 w-5 text-black" />
-                      </div>
+                      <Mail className="h-5 w-5 text-black" />
                     </div>
                     <div className="text-left">
                       <p className="font-medium text-black">Tarannum S</p>
@@ -442,4 +437,3 @@ export default function SponsorPage() {
     </div>
   )
 }
-
