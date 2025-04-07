@@ -37,7 +37,7 @@ export function ContactTab({ item }: ContactTabProps) {
                   href="mailto:info@Globalfintechfest.com"
                   className="text-sm text-gray-700 hover:text-black transition-colors"
                 >
-                  info@Globalfintechfest.com
+                  info@tasconmedia.com
                 </a>
               </div>
             </div>
@@ -51,7 +51,7 @@ export function ContactTab({ item }: ContactTabProps) {
               <div>
                 <p className="font-medium text-black">Call Us</p>
                 <a href="tel:+27123456789" className="text-sm text-gray-700 hover:text-black transition-colors">
-                  +27 12 345 6789
+                  +91 9741744869
                 </a>
               </div>
             </div>
