@@ -101,7 +101,7 @@ export function AgendaTab({ item }: AgendaTabProps) {
         </div>
       </motion.div>
 
-      <motion.div
+      {/* <motion.div
         variants={item}
         className="bg-white backdrop-blur-md p-6 rounded-lg border border-gray-200 shadow-sm mt-8"
       >
@@ -161,7 +161,7 @@ export function AgendaTab({ item }: AgendaTabProps) {
             </tbody>
           </table>
         </div>
-      </motion.div>
+      </motion.div> */}
     </div>
   )
 }

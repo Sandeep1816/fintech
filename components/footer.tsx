@@ -1,5 +1,5 @@
-import Link from "next/link"
 import { Facebook, Instagram, Linkedin, Twitter } from "lucide-react"
+import Link from "next/link"
 
 export default function Footer() {
   return (
@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">Global Fintech Fest</h3>
+            <h3 className="text-xl font-bold mb-4">Global Fintech Summit</h3>
             <p className="text-primary-foreground/80 mb-4">
               Global&apos;s Premier Banking & Fintech Summit
               <br />
@@ -124,7 +124,7 @@ export default function Footer() {
               <p>Johannesburg, South Africa</p>
               <p className="mt-2">
                 <a href="mailto:info@Globalfintechfest.com" className="hover:text-primary-foreground transition-colors">
-                proptechsales@maxpo.ae
+                tarannum.s@tasconmedia.com
                 </a>
               </p>
               {/* <p className="mt-1">
@@ -137,7 +137,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center text-primary-foreground/60 text-sm">
-          <p>&copy; {new Date().getFullYear()} Global Fintech Fest & Awards. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Global Fintech Summit & Awards. All rights reserved.</p>
         </div>
       </div>
     </footer>

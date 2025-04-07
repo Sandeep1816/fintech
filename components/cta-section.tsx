@@ -30,7 +30,7 @@ export default function CTASection() {
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Join Africa&apos;s Premier Fintech Event?</h2>
 
           <p className="text-xl md:text-2xl opacity-90 mb-10">
-            Secure your spot at the Africa&apos;s Fintech Fest & Awards 2025 and be part of shaping the future of finance.
+            Secure your spot at the Africa&apos;s Fintech Summit & Awards 2025 and be part of shaping the future of finance.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
