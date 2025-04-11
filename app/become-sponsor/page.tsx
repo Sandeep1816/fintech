@@ -807,7 +807,7 @@ export default function BecomeSponsorPage() {
             <ButtonLink
               href="/contact"
               variant="outline"
-              size="lg"
+              size="lg" 
               className="gap-2 border-black text-black hover:bg-gray-100 transition-all duration-300"
             >
               Get in Touch
