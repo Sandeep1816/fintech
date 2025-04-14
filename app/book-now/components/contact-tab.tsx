@@ -60,7 +60,7 @@ export function ContactTab({ item }: ContactTabProps) {
           <div className="bg-gray-50 backdrop-blur-md p-6 rounded-lg border border-gray-200 shadow-sm">
             <h4 className="font-medium mb-2 text-black">Event Location</h4>
             <p className="text-sm text-gray-700">
-              Johannesburg, South Global
+              Johannesburg, South Africa
               <br />
               Venue details to be announced
             </p>

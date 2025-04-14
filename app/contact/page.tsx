@@ -410,7 +410,7 @@ export default function ContactPage() {
                     <div>
                       <h3 className="font-medium text-sm sm:text-base text-black">Event Dates</h3>
                       <p className="text-xs sm:text-sm text-gray-700">
-                        20 - 21 August 2025
+                        28 - 29 August 2025
                         <br />
                         Johannesburg, South Africa
                       </p>
