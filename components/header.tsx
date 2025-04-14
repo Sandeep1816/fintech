@@ -16,7 +16,7 @@ const navItems = [
   { name: "Fintech Pioneer Awards", path: "/fintech" },
   { name: "Speakers", path: "/speakers" },
   { name: "Contact Us", path: "/contact" },
-  { name: "Book now", path: "/book-now" },
+  { name: "Book Now", path: "/book-now" },
 ];
 
 export default function Header() {
