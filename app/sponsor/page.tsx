@@ -55,14 +55,14 @@ export default function SponsorPage() {
                   Get in touch
                   <ArrowRight className="h-4 w-4" />
                 </ButtonLink>
-                <ButtonLink
+                {/* <ButtonLink
                   href="/sponsor-info"
                   variant="secondary"
                   size="lg"
                   className="bg-gray-700 hover:bg-gray-800 text-white"
                 >
                   Find out More
-                </ButtonLink>
+                </ButtonLink> */}
                 <ButtonLink
                   href="/become-sponsor"
                   variant="outline"
@@ -89,7 +89,7 @@ export default function SponsorPage() {
             </TabsList>
 
             <TabsContent value="why-sponsor" className="space-y-6">
-              <h2 className="text-2xl font-bold text-black">Why Sponsor</h2>
+              <h2 className="text-2xl font-bold text-black">Why Sponsor</h2> 
               <p className="text-lg text-gray-600 leading-relaxed">
                 Sponsoring the Global FinTech Summit & Awards offers a prime opportunity to enhance brand visibility,
                 attract high-quality leads, and engage with top decision-makers in the banking and fintech sector.
@@ -193,7 +193,7 @@ export default function SponsorPage() {
                     <h3 className="text-xl font-semibold mb-4 text-black">Why It&apos;s Worth It?</h3>
                     <p className="text-gray-600 mb-4">
                       Nothing beats the impact of face-to-face interactions with potential clients. Many of our partners
-                      find that these in-person connections lead to:
+                      find that these in-person connections lead to: 
                     </p>
                     <ul className="space-y-4">
                       <li className="flex">
@@ -285,7 +285,6 @@ export default function SponsorPage() {
                 </div>
               </div>
             </TabsContent>
-
             <TabsContent value="our-sponsors" className="space-y-6">
               <h2 className="text-2xl font-bold text-black">Our Sponsors</h2>
               <div className="bg-gray-100 p-8 rounded-lg text-center border border-gray-300">
@@ -298,13 +297,13 @@ export default function SponsorPage() {
                   <ButtonLink href="/contact" variant="primary" className="bg-black hover:bg-gray-800 text-white">
                     Get in touch
                   </ButtonLink>
-                  <ButtonLink
+                  {/* <ButtonLink
                     href="/sponsor-info"
                     variant="secondary"
                     className="bg-gray-700 hover:bg-gray-800 text-white"
                   >
                     Find out More
-                  </ButtonLink>
+                  </ButtonLink> */}
                   <ButtonLink
                     href="/become-sponsor"
                     variant="outline"

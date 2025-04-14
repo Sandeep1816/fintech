@@ -20,7 +20,7 @@ export function ContactTab({ item }: ContactTabProps) {
         <div>
           <h3 className="text-xl font-semibold mb-4 text-black">Get in Touch</h3>
           <p className="text-gray-700 mb-6">
-            Have questions about the Global FinTech Fest & Awards? Our team is here to help. Reach out to us using the
+            Have questions about the Global FinTech summit & Awards? Our team is here to help. Reach out to us using the
             contact form or the information provided.
           </p>
 
@@ -34,7 +34,7 @@ export function ContactTab({ item }: ContactTabProps) {
               <div>
                 <p className="font-medium text-black">Email Us</p>
                 <a
-                  href="mailto:info@Globalfintechfest.com"
+                  href="mailto:info@Globalfintechsummit.com"
                   className="text-sm text-gray-700 hover:text-black transition-colors"
                 >
                   info@tasconmedia.com
