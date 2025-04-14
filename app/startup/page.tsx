@@ -60,7 +60,7 @@ export default function StartupNexus() {
                 <p className="text-gray-700 text-lg mb-6">
                   Global FinTech Summit & Awards 2025
                   <br />
-                  20 – 21 July 2025 | Johannesburg, South Global
+                  28 – 29 August 2025 | Johannesburg, South Africa
                 </p>
 
                 <motion.div

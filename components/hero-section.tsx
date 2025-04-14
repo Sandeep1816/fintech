@@ -42,7 +42,8 @@ export default function HeroSection() {
         <ParticleAnimation />
       </div>
 
-      <div className="container mx-auto px-4 relative z-20">
+      <div className="container mx-auto px-4 relative z-20 flex flex-col items-center justify-center min-h-[100vh]">
+
         <motion.div
           variants={container}
           initial="hidden"
@@ -63,7 +64,7 @@ export default function HeroSection() {
             <p className="text-lg md:text-xl font-medium mb-8 text-slate-200">
               Global&apos;s Premier Banking & Fintech Summit
               <br />
-              28 – 29 August 2025, Johannesburg, South Global
+              28 – 29 August 2025, Johannesburg, South Africa
             </p>
           </motion.div>
 

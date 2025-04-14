@@ -1,11 +1,11 @@
 "use client"
 
+import { BrochureDownloadForm } from "@/components/download-broucher"
+import { Button } from "@/components/ui/button"
 import { motion } from "framer-motion"
 import { Calendar, Clock, Download, MapPin } from "lucide-react"
-import { AgendaForm } from "./agenda-form"
-import { Button } from "@/components/ui/button"
 import { useState } from "react"
-import { BrochureDownloadForm } from "@/components/download-broucher"
+import { AgendaForm } from "./agenda-form"
 
 interface AgendaTabProps {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -34,7 +34,7 @@ export function AgendaTab({ item }: AgendaTabProps) {
               <div>
                 <p className="font-medium text-black">Date & Time</p>
                 <p className="text-sm text-gray-700">
-                  October 15-17, 2024
+                  August 28th - 29th, 2025
                   <br />
                   9:00 AM - 6:00 PM
                 </p>
