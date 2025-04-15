@@ -77,6 +77,14 @@ export default function Footer() {
                   Sponsor
                 </Link>
               </li>
+              <li>
+                <Link
+                  href="/privacy"
+                  className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
+                >
+                  Privacy Policy
+                </Link>
+              </li>
             </ul>
           </div>
 
