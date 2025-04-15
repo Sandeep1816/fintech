@@ -29,7 +29,7 @@ export async function POST(request: Request) {
     // Email to organization
     const organizationMailOptions = {
       from: "chvamshi03@gmail.com",
-      to: process.env.EMAIL_TO || "info@africafintechfest.com",
+      to: "tarannum.s@tasconmedia.com, info@tasconmedia.com, digital.maxpo@gmail.com",
       subject: `Contact Form: ${subject}`,
       html: `
         <h1>New Contact Form Submission</h1>
@@ -52,7 +52,7 @@ export async function POST(request: Request) {
         <h1>Thank You for Contacting Us</h1>
         <p>Dear ${name},</p>
         <p>Thank you for reaching out to the Global FinTech Fest & Awards team. We have received your message regarding "${subject}" and will respond as soon as possible.</p>
-        <p>For urgent inquiries, please call us at +27 12 345 6789.</p>
+        <p>For urgent inquiries, please call us at +91 9741744869.</p>
         <p>Best regards,</p>
         <p>The Africa FinTech Fest & Awards Team</p>
       `,
