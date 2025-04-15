@@ -34,7 +34,7 @@ export default function HeroSection() {
   }
 
   return (
-    <section className="relative min-h-[100vh] pt-40 pb-36 md:pt-48 md:pb-44 overflow-hidden bg-gray-950">
+    <section className="relative min-h-[100vh]  overflow-hidden bg-gray-950">
 
       {/* Particle animation background */}
       <div className="absolute inset-0 overflow-hidden z-0">
