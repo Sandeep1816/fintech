@@ -33,7 +33,7 @@ export async function POST(request: Request) {
     // Email to organization
     const organizationMailOptions = {
       from: "chvamshi03@gmail.com",
-      to: process.env.EMAIL_TO || "info@africafintechfest.com",
+      to: "tarannum.s@tasconmedia.com, info@tasconmedia.com, digital.maxpo@gmail.com",
       subject: `Agenda Preferences: ${name}`,
       html: `
         <h1>New Agenda Preferences Submission</h1>

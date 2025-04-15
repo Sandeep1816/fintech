@@ -35,7 +35,7 @@ export async function POST(request: Request) {
     // 📩 Email to Admin
     const adminMailOptions = {
       from: "chvamshi03@gmail.com",
-      to: process.env.EMAIL_TO || "info@africafintechfest.com",
+      to: "tarannum.s@tasconmedia.com, info@tasconmedia.com, digital.maxpo@gmail.com",
       subject: "New Brochure Download Request",
       html: `
         <h2>New Brochure Download Request</h2>
