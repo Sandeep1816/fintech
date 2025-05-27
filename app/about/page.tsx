@@ -172,7 +172,7 @@ export default function AboutPage() {
                     </li>
                     <li>
                       Cryptocurrency and Blockchain: The integration of crypto payments into mainstream financial
-                      systems and the regulatory challenges involved.
+                      systems and the regulatory challenges involved..
                     </li>
                   </ul>
                 </motion.div>
