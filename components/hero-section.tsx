@@ -64,7 +64,7 @@ export default function HeroSection() {
             <p className="text-lg md:text-xl font-medium mb-8 text-slate-200">
               Global&apos;s Premier Banking & Fintech Summit
               <br />
-              28 – 29 August 2025, Johannesburg, South Africa
+              08 – 09 October 2025, Johannesburg, South Africa
             </p>
           </motion.div>
 
